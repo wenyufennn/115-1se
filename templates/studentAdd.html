@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8" />
+    <title>新增學生</title>
+</head>
+<body>
+    <h1>Add New Student</h1>
+    <form method="post" action="/student/insert">
+        <table>
+            <tr>
+                <td>學號</td>
+                <td><input type="number" name="stuid" required></td>
+            </tr>
+            <tr>
+                <td>姓名</td>
+                <td><input type="text" name="name" required></td>
+            </tr>
+            <tr>
+                <td>身高</td>
+                <td><input type="number" name="height"></td>
+            </tr>
+        </table>
+        <input type="submit" value="新增送出">
+    </form>
+</body>
+</html>
