@@ -8,7 +8,7 @@ use following command to start service
 
 OR
 uv run fastapi dev xxx.py
-
+哈囉你好嗎衷心感謝珍重再見期待再相逢
 
 db.py: utility module for lifespan management and DB connection with connection pools
 students.sql: example data for db usage testing
